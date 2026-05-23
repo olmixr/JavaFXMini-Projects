@@ -34,7 +34,7 @@ public class GoalSimulator extends Application {
                 try {
                     double amount = Double.parseDouble(result.get());
                     if (amount > 0) {
-                        goal.set(amount);
+                        goal.set(Double.valueOf(amount));
                         textInputDialog.getEditor().clear();
                     }else
                     {
@@ -56,7 +56,7 @@ public class GoalSimulator extends Application {
                 try {
                     double amount = Double.parseDouble(result.get());
                     if (amount > 0) {
-                        saved.set(saved.get()+amount);
+                        saved.set(Double.valueOf(saved.get()+amount));
                         textInputDialog.getEditor().clear();
                     }else
                     {
@@ -76,7 +76,7 @@ public class GoalSimulator extends Application {
 
             savedMoney.setText("Saved: "+saved.get());
 
-            remaining.set(goal.get()- saved.get());
+            remaining.set(Double.valueOf(goal.get()- saved.get()));
             remainingMoney.setText("Remaining: "+remaining.get());
         });
 

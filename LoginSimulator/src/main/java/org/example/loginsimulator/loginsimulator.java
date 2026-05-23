@@ -27,7 +27,7 @@ public class loginsimulator extends Application {
         Button login = new Button("Login");
         Button reset = new Button("Reset");
 
-        Label infoAttempts = new Label("Попыток осталось: " + attempts.get());
+        Label infoAttempts = new Label("Attempts left: " + attempts.get());
         login.setOnAction(event -> {
             if (attempts.get() == 0) {
                 login.setDisable(true);
@@ -45,12 +45,12 @@ public class loginsimulator extends Application {
                 Alert alert = new Alert(Alert.AlertType.ERROR);
                 alert.setContentText("Login incorrect!");
                 attempts.getAndDecrement();
-                infoAttempts.setText("Попыток осталось: " + attempts.get());
+                infoAttempts.setText("Attempts left: " + attempts.get());
                 if (attempts.get() == 0) {
                     login.setDisable(true);
 
                     Alert alert2 = new Alert(Alert.AlertType.ERROR);
-                    alert2.setContentText("Close logining");
+                    alert2.setContentText("Login attempts are over");
                     alert2.show();
                 }
 
@@ -63,7 +63,7 @@ public class loginsimulator extends Application {
             login.setDisable(false);
             passwordField.clear();
             attempts.set(3);
-            infoAttempts.setText("Попыток осталось: " + attempts.get());
+            infoAttempts.setText("Attempts left: " + attempts.get());
 
         });
 
