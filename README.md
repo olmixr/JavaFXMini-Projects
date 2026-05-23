@@ -16,10 +16,16 @@ These applications perform simple tasks such as checking balance, depositing mon
 
 ## Screenshot
 ![ATM Simulator]
-(/photoProject/photo1.png)
-(/photoProject/photo1-1.png)
-(/photoProject/photo1-2.png)
 
+<p align="center">
+  <img src="photoProject/photo1.png" width="45%" />
+  <img src="photoProject/photo1-1.png" width="45%" />
+  <img src="photoProject/photo1-2.png" width="45%" />
+</p>
+
+<p align="center">
+  Main | Balance | Deposit
+</p>
 ---
 
 # 2. Goal Simulator
@@ -31,8 +37,14 @@ These applications perform simple tasks such as checking balance, depositing mon
 
 ## Screenshot
 ![Goal Simulator]
-(/photoProject/photo2.png)
-(/photoProject/photo2-1.png)
+<p align="center">
+  <img src="photoProject/photo2.png" width="45%" />
+  <img src="photoProject/photo2-1.png" width="45%" />
+</p>
+
+<p align="center">
+  Main | Enter goal
+</p>
 
 
 ---
@@ -47,9 +59,15 @@ These applications perform simple tasks such as checking balance, depositing mon
 
 ## Screenshot
 ![Login Simulator]
-(/photoProject/photo3.png)
-(/photoProject/photo3-1.png)
 
+<p align="center">
+  <img src="photoProject/photo3.png" width="45%" />
+  <img src="photoProject/photo3-1.png" width="45%" />
+</p>
+
+<p align="center">
+  Main | Message
+</p>
 ---
 
 # Technologies Used
