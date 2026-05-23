@@ -15,18 +15,15 @@ These applications perform simple tasks such as checking balance, depositing mon
 - Exit system
 
 ## Screenshot
-![ATM Simulator]
-
 <p align="center">
-  <img src="photoProject/photo1.png" width="45%" />
-  <img src="photoProject/photo1-1.png" width="45%" />
-  <img src="photoProject/photo1-2.png" width="45%" />
+  <img src="photoProject/photo1.png" width="35%" />
+  <img src="photoProject/photo1-1.png" width="35%" />
+  <img src="photoProject/photo1-2.png" width="35%" />
 </p>
 
 <p align="center">
   Main | Balance | Deposit
 </p>
----
 
 # 2. Goal Simulator
 
@@ -36,18 +33,14 @@ These applications perform simple tasks such as checking balance, depositing mon
 - Check progress
 
 ## Screenshot
-![Goal Simulator]
 <p align="center">
-  <img src="photoProject/photo2.png" width="45%" />
-  <img src="photoProject/photo2-1.png" width="45%" />
+  <img src="photoProject/photo2.png" width="35%" />
+  <img src="photoProject/photo2-1.png" width="35%" />
 </p>
 
 <p align="center">
   Main | Enter goal
 </p>
-
-
----
 
 # 3. Login Simulator
 
@@ -58,17 +51,14 @@ These applications perform simple tasks such as checking balance, depositing mon
 - Reset attempts
 
 ## Screenshot
-![Login Simulator]
-
 <p align="center">
-  <img src="photoProject/photo3.png" width="45%" />
-  <img src="photoProject/photo3-1.png" width="45%" />
+  <img src="photoProject/photo3.png" width="35%" />
+  <img src="photoProject/photo3-1.png" width="35%" />
 </p>
 
 <p align="center">
   Main | Message
 </p>
----
 
 # Technologies Used
 - Java
